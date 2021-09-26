@@ -1,3 +1,4 @@
+// if / else if / else
 var minimarketStatus = "open"
 var telur = "soldout"
 var buah = "soldout" 
@@ -13,3 +14,12 @@ if ( minimarketStatus == "open" ) {
 } else {
     console.log("minimarket tutup, saya pulang lagi")
 }
+
+// switch
+var tombolDitekan = 1;
+switch(tombolDitekan) {
+  case 1: { console.log('matikan TV!'); break; }
+  case 2: { console.log('turunkan volume TV!'); break; }
+  case 3: { console.log('tingkatkan volume TV!'); break; }
+  case 4: { console.log('matikan suara TV!'); break; }
+  default: { console.log('Tidak terjadi apa-apa'); }}
