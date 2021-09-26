@@ -23,3 +23,8 @@ switch(tombolDitekan) {
   case 3: { console.log('tingkatkan volume TV!'); break; }
   case 4: { console.log('matikan suara TV!'); break; }
   default: { console.log('Tidak terjadi apa-apa'); }}
+
+//   ternary operator
+  var age = 10;
+  var dewasa = (age < 16) ? "anak-anak" : "remaja";  
+  console.log(dewasa)
