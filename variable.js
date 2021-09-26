@@ -1,7 +1,7 @@
 let name = "widi" // Tipe
 let angka = 9
 let hariIniSenin = false 
-var data
+let data
 
 
 console.log(name) // "John"
